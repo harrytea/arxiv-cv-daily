@@ -1,5 +1,5 @@
 ---
-name: arxiv-daily
+name: arxiv-cv-daily
 description: Fetch arXiv papers for a target date in cs.CV, screen them against a user topic, save logs under a user-chosen output directory, download matched PDFs, and summarize the matched papers from full text.
 ---
 

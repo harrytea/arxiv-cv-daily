@@ -1,6 +1,6 @@
-# arxiv-daily
+# arxiv-cv-daily
 
-`arxiv-daily` is a Codex/OpenClaw skill plus a Python workflow for collecting arXiv `cs.CV` papers by release day, screening them against a user topic, and saving all artifacts under a chosen output directory.
+`arxiv-cv-daily` is a Codex/OpenClaw skill plus a Python workflow for collecting arXiv `cs.CV` papers by release day, screening them against a user topic, and saving all artifacts under a chosen output directory.
 
 ## What It Does
 

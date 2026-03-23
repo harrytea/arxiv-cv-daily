@@ -794,7 +794,7 @@ def download_pdf(
         logger.log(f"Downloading PDF for {paper.arxiv_id} to {pdf_path}.")
         pdf_bytes = http_get(
             paper.pdf_url,
-            user_agent="arxiv-daily/2.0",
+            user_agent="arxiv-cv-daily/2.0",
             rate_limiter=rate_limiter,
             logger=logger,
             request_label=f"PDF download {paper.arxiv_id}",
@@ -1119,7 +1119,7 @@ def process_single_day(
             category,
             candidate_date,
             max_results,
-            "arxiv-daily/2.0",
+            "arxiv-cv-daily/2.0",
             logger,
             api_rate_limiter,
         )
